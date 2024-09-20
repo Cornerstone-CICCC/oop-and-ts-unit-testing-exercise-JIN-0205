@@ -1,4 +1,4 @@
-function counter(number, direction) {
+function counter(number, direction) { 
   return new Promise((resolve) => {
     let current = direction === 'increment' ? 0 : number
 
